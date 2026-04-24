@@ -1,0 +1,46 @@
+[package]
+edition = "2024"
+name = "the-phantasm-press-firmware"
+version = "0.1.0"
+authors = ["Dan Nixon <dan@dan-nixon.com>"]
+resolver = "2"
+
+[[bin]]
+name = "the-phantasm-press-firmware"
+test = false
+bench = false
+
+[dependencies]
+assign-resources = "0.5.0"
+cortex-m-rt = "0.7.3"
+defmt = "1.0"
+defmt-rtt = "1.1"
+embassy-embedded-hal = "0.5.0"
+embassy-executor = { version = "0.9", features = ["arch-cortex-m", "executor-thread", "defmt", "executor-interrupt"] }
+embassy-rp = { version = "0.9", features = ["defmt", "unstable-pac", "time-driver", "critical-section-impl", "rp2040"] }
+embassy-sync = { version = "0.7" }
+embassy-time = { version = "0.5", features = ["defmt", "defmt-timestamp-uptime"] }
+embassy-usb = "0.5.1"
+embassy-usb-driver = "0.2.0"
+esp-hal-mfrc522 = { version = "0.3.3", features = ["embassy-time"] }
+git-version = "0.3.9"
+heapless = { version = "0.7", features = ["defmt"] }
+panic-probe = { version = "1.0", features = ["print-defmt"] }
+portable-atomic = { version = "1.13.1", features = ["critical-section"] }
+postcard = "1.1.3"
+protocol = { path = "../protocol", default-features = false }
+smart-leds = "0.4.0"
+static_cell = "2.1.1"
+
+[profile.release]
+debug = 2
+lto = true
+opt-level = 'z'
+
+[profile.dev]
+debug = 2
+lto = true
+opt-level = "z"
+
+[lints.rust]
+unused_crate_dependencies = "deny"

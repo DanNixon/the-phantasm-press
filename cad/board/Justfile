@@ -1,0 +1,22 @@
+OUT_DIR := "./out"
+
+default: (stl "card_reader_spacer") \
+         (stl "led_ring_mount") \
+         (stl "pillar") \
+         (dxf "bottom_plate") \
+         (dxf "control_board_spacer") \
+         (dxf "top_plate_upper") \
+         (dxf "top_plate_lower") \
+         (dxf "side_panel") \
+         (dxf "side_panel_cable_exit")
+
+dxf FILE:
+    mkdir -p {{OUT_DIR}}
+    openscad -o {{OUT_DIR}}/{{FILE}}.dxf {{FILE}}.scad
+
+stl FILE:
+    mkdir -p {{OUT_DIR}}
+    openscad -o {{OUT_DIR}}/{{FILE}}.stl {{FILE}}.scad
+
+clean:
+    rm -rf {{OUT_DIR}}

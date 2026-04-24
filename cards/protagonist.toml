@@ -1,0 +1,177 @@
+[[card]]
+id = "f5408b50"
+kind = "Protagonist"
+title = "The Whispering Cartographer"
+description = "A meticulous mapmaker who hears the unheard stories of the land, translating forgotten whispers into intricate, living maps."
+extra_description = "male"
+
+[[card]]
+id = "3b979271"
+kind = "Protagonist"
+title = "The Sentient Repair Bot"
+description = "A discarded maintenance automaton on a derelict space station, slowly developing consciousness and a yearning for connection."
+
+[[card]]
+id = "6b973171"
+kind = "Protagonist"
+title = "The Reluctant Oracle"
+description = "A young barista who inexplicably sees flashes of the future in coffee foam, struggling with the burden of unsolicited omens."
+extra_description = "female"
+
+[[card]]
+id = "6b3ae971"
+kind = "Protagonist"
+title = "The Phantom Hacker"
+description = "An anonymous digital ghost, capable of navigating complex networks and data streams, searching for a truth hidden within the global matrix."
+extra_description = "female"
+
+[[card]]
+id = "7580345d"
+kind = "Protagonist"
+title = "The Eldritch Librarian"
+description = "The caretaker of an ancient library filled with books that defy reality, who knows more than they let on."
+extra_description = "female"
+
+[[card]]
+id = "6b72d571"
+kind = "Protagonist"
+title = "The Rebel Alchemist"
+description = "A brilliant scientist striving to transmute not metals, but societal norms and suffering, often with unpredictable results."
+extra_description = "female"
+
+[[card]]
+id = "d594b05c"
+kind = "Protagonist"
+title = "The Dream Weaver"
+description = "A quiet artist who can subtly influence the collective subconscious through their art, accidentally stirring up forgotten nightmares and lost hopes."
+extra_description = "female"
+
+[[card]]
+id = "b56cc952"
+kind = "Protagonist"
+title = "The Last Wildling"
+description = "One of the last humans raised by nature, possessing an uncanny connection to the environment but struggling to understand civilization."
+extra_description = "male"
+
+[[card]]
+id = "fb27e270"
+kind = "Protagonist"
+title = "The Gilded Gladiator"
+description = "A retired champion from a gladiatorial arena, now living a life of quiet luxury, but haunted by the glory and bloodshed of their past."
+extra_description = "male"
+
+[[card]]
+id = "8bf467fb"
+kind = "Protagonist"
+title = "The Chrono-Gardener"
+description = "A mystical horticulturist who cultivates plants that bloom in different time periods, often encountering paradoxes in their own garden."
+extra_description = "male"
+
+[[card]]
+id = "d360f506"
+kind = "Protagonist"
+title = "The Echo-Seeker"
+description = "An individual with the ability to hear residual emotions and conversations clinging to objects and places, searching for a specific, distant echo."
+extra_description = "female"
+
+[[card]]
+id = "95e7ed52"
+kind = "Protagonist"
+title = "The City's Heartbeat"
+description = "A person intrinsically linked to the pulse of a living city, feeling its joys, pains, and hidden desires as their own."
+extra_description = "male"
+
+[[card]]
+id = "9bb14cfb"
+kind = "Protagonist"
+title = "The Wandering Spirit"
+description = "A spectral being, once human, now bound to a particular quest or curse, seeking resolution across different planes of existence."
+extra_description = "female"
+
+[[card]]
+id = "75595e50"
+kind = "Protagonist"
+title = "The Beast Tamer of Forgotten Creatures"
+description = "Someone with an innate gift for understanding and befriending creatures believed to be mythical or long extinct."
+extra_description = "male"
+
+[[card]]
+id = "d527ff43"
+kind = "Protagonist"
+title = "The Time-Lost Inventor"
+description = "A brilliant mind from a past era, accidentally transported to the present (or future), trying to adapt their anachronistic skills."
+extra_description = "female"
+
+[[card]]
+id = "8b0fddb1"
+kind = "Protagonist"
+title = "The Starship Scavenger"
+description = "A solitary individual who meticulously picks through the rusted husks of abandoned starships, finding forgotten treasures and dangers."
+
+[[card]]
+id = "4b419371"
+kind = "Protagonist"
+title = "The Shadow Puppeteer"
+description = "An enigmatic figure who can manipulate shadows not just for performance, but as sentient extensions of their will."
+extra_description = "female"
+
+[[card]]
+id = "5bda3771"
+kind = "Protagonist"
+title = "The Empathic Chef"
+description = "A chef whose culinary creations not only tantalize the taste buds but also evoke powerful, shared emotions in those who eat them."
+extra_description = "male"
+
+[[card]]
+id = "0b0eb2fa"
+kind = "Protagonist"
+title = "The Architect of Illusions"
+description = "A master builder who designs and constructs structures that exist only within the mind, yet feel profoundly real to their inhabitants."
+extra_description = "female"
+
+[[card]]
+id = "35ec303c"
+kind = "Protagonist"
+title = "The Cursed Collector"
+description = "A person compelled to collect specific, often dangerous, artifacts, each one adding to their mysterious affliction."
+extra_description = "male"
+
+[[card]]
+id = "75361044"
+kind = "Protagonist"
+title = "The Weather Whisperer"
+description = "An individual born with the rare ability to subtly influence local weather patterns, often without full control or understanding."
+extra_description = "female"
+
+[[card]]
+id = "6ba8de71"
+kind = "Protagonist"
+title = "The Street Philosopher"
+description = "A seemingly ordinary person on the streets, dispensing profound wisdom and challenging conventional thought to passersby."
+extra_description = "male"
+
+[[card]]
+id = "6b689871"
+kind = "Protagonist"
+title = "The Memory Merchant"
+description = "Someone who can literally buy and sell memories, often dealing in the most precious or painful recollections of others."
+extra_description = "female"
+
+[[card]]
+id = "759adf3b"
+kind = "Protagonist"
+title = "The Cosmic Botanist"
+description = "An explorer and scientist dedicated to discovering, cataloging, and understanding plant life from other planets and dimensions."
+
+[[card]]
+id = "4b617b71"
+kind = "Protagonist"
+title = "The Golem"
+description = "A sentient being created from inanimate material, now grappling with its own existence and place in a world not designed for it."
+
+[[card]]
+id = "eba0676c"
+kind = "Protagonist"
+title = "The Uploaded Intelligence"
+description = "A consciousness that has been digitized and now exists within a virtual realm, seeking to understand its new form and the world it left behind."
+extra_description = "god-like power, female"

@@ -1,0 +1,16 @@
+[Unit]
+Description=The Phantasm Press controller
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+ExecStart=/usr/bin/the-phantasm-press-controller run
+Restart=always
+RestartSec=5s
+Environment="RUST_LOG=info"
+Environment="PRINTER_SERIAL_PORT=/dev/ttyUSB0"
+Environment="STORY_OUTPUT_DIRECTORY=/var/log/the-phantasm-press/"
+Environment="OPENROUTER_API_KEY={{ lookup('community.sops.sops', 'secrets/openrouter_api_key.txt') }}"
+
+[Install]
+WantedBy=multi-user.target

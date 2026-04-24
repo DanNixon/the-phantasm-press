@@ -1,0 +1,10 @@
+[files]
+extend-exclude = [
+  "controller-deploy/secrets/*"
+]
+
+[default]
+extend-ignore-re = [
+  # card IDs in card deck TOML files
+  "id = \"[a-fA-F0-9]{8}\""
+]

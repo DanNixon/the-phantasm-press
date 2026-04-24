@@ -1,0 +1,18 @@
+OUT_DIR := "./out"
+
+default: (dxf "bottom_panel") \
+         (dxf "front_panel") \
+         (dxf "side_panel") \
+         (stl "spacer") \
+         (dxf "top_panel")
+
+dxf FILE:
+    mkdir -p {{OUT_DIR}}
+    openscad -o {{OUT_DIR}}/{{FILE}}.dxf {{FILE}}.scad
+
+stl FILE:
+    mkdir -p {{OUT_DIR}}
+    openscad -o {{OUT_DIR}}/{{FILE}}.stl {{FILE}}.scad
+
+clean:
+    rm -rf {{OUT_DIR}}

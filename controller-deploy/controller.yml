@@ -1,0 +1,30 @@
+---
+- name: Controller configuration
+  hosts: all
+
+  tasks:
+    - name: Deploy controller systemd unit
+      become: true
+      ansible.builtin.template:
+        src: templates/the-phantasm-press.service.j2
+        dest: /etc/systemd/system/the-phantasm-press.service
+        owner: root
+        group: root
+        mode: "0644"
+
+    - name: Copy controller binary to /usr/bin
+      become: true
+      ansible.builtin.copy:
+        src: ../controller/target/aarch64-unknown-linux-gnu/release/the-phantasm-press-controller
+        dest: /usr/bin/the-phantasm-press-controller
+        owner: root
+        group: root
+        mode: "0755"
+
+    - name: Ensure the controller service is enabled and started
+      become: true
+      ansible.builtin.systemd:
+        name: the-phantasm-press
+        enabled: true
+        state: restarted
+        daemon_reload: true
